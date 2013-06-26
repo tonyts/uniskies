@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>Uniskies</title>
+        <link rel="stylesheet" type="text/css" href="style/global.css" />
+        <script language="javascript" src="script/jquery-1.10.1.min.js"></script>
+        <script language="javascript" src="script/global.js"></script>
+        {#block name=head}{#/block}
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <a class="headerLogo" href="/"><img src="images/logo.jpg"></a>
+                <ul>
+                    <li><a class="{#$currentAbout}" href="?c=about">About</a></li>
+                    <li><a class="{#$currentWhatWeDo}" href="?c=whatwedo">What We Do</a></li>
+                    <li><a class="{#$currentDonate}" href="?c=donate">Donate</a></li>
+                    <li><a class="{#$currentMember}" href="?c=member">Member Area</a></li>
+                </ul>
+            </div>
+            {#block name=breadCrumb}{#/block}
+            <div class="content">
+                {#block name=content}{#/block}
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><a href="javascript:void(0);">About</a></li>
+                    <li><a href="javascript:void(0);">Ideology</a></li>
+                    <li><a href="javascript:void(0);">Services</a></li>
+                    <li><a href="javascript:void(0);">Organization</a></li>
+                    <li><a href="javascript:void(0);">History</a></li>
+                </ul>
+                <span class="copy">© Copyright 2013 Uniskies</span>
+                <a class="top" href="#top">back to top</a>
+            </div>
+        </div>
+    </body>
+</html>

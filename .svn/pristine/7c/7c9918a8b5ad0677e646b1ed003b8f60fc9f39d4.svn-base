@@ -1,0 +1,14 @@
+<?php
+/**
+ * This is the donate controller
+ *
+ * @author Tony
+ */
+class donate extends TFController {
+    public function index(){
+        $view = new TFView('donate.html');
+        $view->addDisplayVar("currentDonate", "current");
+        $view->addDisplayVar("title", "Donate");
+        return $view;
+    }
+}

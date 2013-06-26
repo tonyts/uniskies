@@ -1,0 +1,31 @@
+#section1 .col1{
+	padding: 33px 35px;
+	background-color: #fff;
+	margin-top: 50px;
+	float: left;
+}
+
+#section1 .col2{
+	width: 450px;
+	padding: 50px 30px 0;
+	float: left;
+}
+
+	#section1 .col2 p{
+		font-size: 24px;
+	}
+
+	#section1 .col2 a.viewMore{
+		font-size: 14px;
+		text-decoration: underline;
+		color: #fff;
+	}
+
+.twoColumn .column{
+	width: 50%;
+}
+
+.twoColumn .column.col2{
+	width: 25%;
+	margin-left: 55px;
+}
