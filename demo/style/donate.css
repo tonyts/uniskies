@@ -1,0 +1,21 @@
+.content .section{
+	padding-bottom: 20px !important;
+}
+
+.content .section h3{
+	font-weight: normal;
+}
+
+.section1{
+	margin-left: 374px;
+	font-size: 15px;
+}
+
+.section2 p{
+	margin-right: 80px;
+}
+
+#portletAmount{
+    top: 105px;
+    left: 120px;
+}

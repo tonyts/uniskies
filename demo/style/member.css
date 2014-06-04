@@ -1,0 +1,59 @@
+.container{
+	background-color: #f0f0f0;
+}
+
+.content .section .notch{
+	border-top-color: #f0f0f0;
+}
+
+.content .section form{
+}
+
+	.content .section form .column{
+	}
+
+		.content .section form .column.col1{
+			text-align: right;
+			width: 30%;
+		}
+
+		.content .section form .column.col2{
+			text-align: left;
+			width: 300px;
+		}
+
+.content .section label{
+	display: block;
+	padding: 7px 0 12px 0;
+	*padding-bottom: 15px;
+}
+
+.content .section input, .content .section select{
+	width: 215px;
+	padding: 6px;
+	vertical-align: middle;
+	border: solid 1px #d6d6d6;
+	margin: 0 9px 6px 20px;
+	height: 16px;
+}
+
+.content .section select{
+	padding: 3px 3px 3px 2px;
+	width: 229px;
+	height: 32px;
+}
+
+#portletSignIn{
+	top: 0;
+	right: 10%;
+}
+
+span.req{
+	color: #ff0000;
+}
+
+.button.green {
+	width: 112px!important;
+	height: 33px!important;
+	line-height: normal;
+}

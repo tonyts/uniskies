@@ -1,0 +1,52 @@
+{#extends file='Mian.Master.html'}
+{#block name=head}
+    <link rel="stylesheet" type="text/css" href="style/member.css" />
+{#/block}
+{#block name=breadCrumb}
+	<div class="breadCrumb">
+	    <span><a href="/demo/">Home</a> > {#$title}</span>
+	</div>
+{#/block}
+{#block name=content}
+	<h1>{#$title}</h1>
+	<div class="section left">
+		<span class="notch"></span>
+		<h2>Create your account.</h2>
+		<form name="register" id="register" action="" method="post">
+			<div class="column col1">
+				<label for="email">Email Address</label>
+				<label for="username">Choose Username</label>
+				<label for="password">Password</label>
+				<label for="cnfpassword">Confirm Password</label>
+				<label for="firstname">First Name</label>
+				<label for="lastname">Last Name</label>
+				<label for="company">Company</label>
+				<label for="city">City</label>
+				<label for="state">State/Province</label>
+				<label for="postalcode">Postal Code</label>
+				<label for="country">Country</label>
+			</div>
+			<div class="column col2">
+				<input type="text" name="email" id="email" class="req" /><span class="req">*</span>
+				<input type="text" name="username" id="username" class="req" /><span class="req">*</span>
+				<input type="text" name="password" id="password" class="req" /><span class="req">*</span>
+				<input type="text" name="cnfpassword" id="cnfpassword" class="req" /><span class="req">*</span>
+				<input type="text" name="firstname" id="firstname" class="req" /><span class="req">*</span>
+				<input type="text" name="lastname" id="lastname"/>
+				<input type="text" name="company" id="company"/>
+				<input type="text" name="city" id="city"/>
+				<input type="text" name="state" id="state"/>
+				<input type="text" name="postalcode" id="postalcode"/>		
+				<select name="country" id="country">
+					<option></option>
+					<option value="Hong Kong">Hong Kong</option>
+					<option value="China">China</option>
+				</select>
+        		<input class="button green" type="submit" value="Continue"/>
+			</div>
+			<div class="clear"></div>
+		</form>
+		<div class="clear"></div>
+	</div>
+	{#include file="portlet-signin.html"}
+{#/block}

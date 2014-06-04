@@ -1,0 +1,62 @@
+<style type="text/css">
+#portletSignIn{
+    padding: 45px 30px 0;
+    background-color: #1577a8;
+    width: 242px;
+}
+
+    #portletSignIn h2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        padding: 0 !important;
+        text-align: left;
+    }
+
+    #portletSignIn input{
+        width: 220px;
+        padding: 10px;
+        font-size: 16px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        border: solid 1px #d6d6d6;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    #portletSignIn input[type="submit"]{
+        float: right;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #aaaaaa;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    #aaaaaa;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    #aaaaaa;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    #aaaaaa;
+    }
+
+    #portletSignIn p{
+        padding-bottom: 10px;
+    }
+</style>
+<div class="portlet" id="portletSignIn">
+    <h2>Sign In</h2>
+    <form name="signin" id="signin" action="" method="post">
+        <input type="text" name="account" placeholder="Accyount"/>
+        <input type="text" name="password" placeholder="Password"/>
+        <input class="button green" type="submit" value="Sign In"/>
+        <div class="clear"></div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <p>Forgot your password?</p>
+    <p>Register</p>
+    <br>
+</div>

@@ -1,0 +1,31 @@
+#section1 img{
+	padding: 33px 35px;
+	background-color: #fff;
+	margin: 50px 30px 0 0;
+	float: left;
+}
+
+#section1 p{
+	font-size: 24px;
+	margin-right: 250px;
+	padding-top: 50px;
+}
+
+#section1 a.viewMore{
+	font-size: 14px;
+	color: #fff;
+}
+
+.twoColumn .column{
+	width: 50%;
+}
+
+.twoColumn .column.col2{
+	width: 25%;
+	margin-left: 55px;
+}
+
+#portletLatest{
+    top: 0px;
+    right: 79px;
+}

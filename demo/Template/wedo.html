@@ -1,0 +1,61 @@
+{#extends file='Mian.Master.html'}
+{#block name=head}
+    <link rel="stylesheet" type="text/css" href="style/wedo.css" />
+{#/block}
+{#block name=breadCrumb}
+	<div class="breadCrumb">
+	    <span><a href="/demo/">Home</a> > {#$title}</spa>
+	</div>
+{#/block}
+{#block name=content}
+	<h1>{#$title}</h1>
+	<div class="section left gray" id="section1">
+		<span class="notch"></span>
+		<h2>Main land programmes</h2>
+		<div class="row row1">
+			<img src="images/children01.jpg">
+			<h3>Lorem ipsum</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet</p>
+			<div class="clear"></div>
+		</div>
+		<div class="row row2">
+			<div class="portletNews small">
+				<img src="images/children02.jpg">
+				<h3>Lorem ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper.</p>
+				<div class="clear"></div>
+			</div>
+			<div class="portletNews large">
+				<img src="images/children03.jpg">
+				<h3>Lorem ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper.</p>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="section twoColumn right blue" id="section2">
+		{#include file="portlet-latest.html"}
+		<span class="notch"></span>
+		<h2>Hong Kong programmes</h2>
+		<div class="column col1">
+			<h3>Lorem ipsum</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper. Donec non turpis id lacus luctus blandit eu at turpis</p>
+			<div class="portletNews large">
+				<img src="images/children03.jpg">
+				<h3>Lorem ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper.</p>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="column col2">
+			<img src="images/children04.jpg">
+			<div class="portletNews small">
+				<img src="images/children02.jpg">
+				<h3>Lorem ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Quisque suscipit condimentum velit at semper.</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+{#/block}
