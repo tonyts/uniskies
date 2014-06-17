@@ -1,0 +1,109 @@
+.content #section1 .row1{
+	margin-right: 80px;
+	margin-bottom: 20px;
+}
+
+.content #section1 .row img{
+	float: left;
+	padding-right: 20px;
+	width: 470px;
+}
+
+.content #section1 .row h3, .content #section1 .row h3 a{
+	color: #000;
+}
+
+.content #section1 .row1 h3, .content #section1 .row1 h3 a{
+	font-size: 30px;
+}
+
+.content .section .portletNews{
+	padding: 20px 20px 0;
+	background-color: #fff;
+}
+
+	.content .section .portletNews img{
+		float: left;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+
+	.content .section .portletNews h3{
+		color: #000;
+		text-align: left !important;
+	}
+
+	.content .section .portletNews h3 a{
+		color: #000;
+	}
+
+	.content .section .portletNews p{
+		color: #525252;
+	}
+
+	.content .section .portletNews.small{
+		width: 410px;
+	}
+
+		.content .section .portletNews.small h3, .content .section .portletNews.small h3 a{
+			font-size: 18px !important;
+		}
+
+		.content .section .portletNews.small img{
+			width: 255px !important;
+		}
+
+	.content .section .portletNews.large{
+		width: 560px;
+	}
+
+		.content .section .portletNews.large h3, .content .section .portletNews.large h3 a{
+			font-size: 24px !important;
+		}
+
+		.content .section .portletNews.large img{
+			width: 356px !important;
+		}
+
+.content #section1 .portletNews.small{
+	float: left;
+	margin-bottom: 30px;
+}
+
+.content #section1 .portletNews.large{
+	float: right;
+}
+
+.content #section2 h3, .content #section2 h3 a{
+	font-size: 30px;
+}
+
+.twoColumn .column.col1{
+	float: left;
+	width: 600px;
+	margin-bottom: 30px;
+}
+
+.twoColumn .column.col2{
+	float: right;
+	width: 450px;
+	margin-bottom: 30px;
+}
+
+#section2{
+	padding-bottom: 10px !important;
+	position: relative;
+}
+
+#section2 .col1 h3, #section2 .col1 p{
+	margin-left: 325px;
+}
+
+.col2 img{
+	padding-bottom: 13px;
+}
+
+.portlet{
+    top: -125px;
+    left: 51px;
+}

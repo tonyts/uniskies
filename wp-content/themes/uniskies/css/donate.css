@@ -1,0 +1,42 @@
+.content .section{
+	padding-bottom: 20px !important;
+}
+
+.content .section h3{
+	font-weight: normal;
+}
+
+.section1{
+	margin-left: 374px;
+	font-size: 15px;
+}
+
+.section2 p{
+	margin-right: 80px;
+}
+
+#portletAmount{
+    top: -230px;
+    left: 40px;
+}
+
+.portlet{
+    width: 204px;
+    padding: 40px 28px 20px;
+}
+
+    .portlet .title{
+        font-size: 18px;
+        padding-bottom: 13px;
+    }
+
+    .portlet p{
+        margin: 0 !important;
+    }
+
+    .portlet .amount{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: right;
+        padding-bottom: 30px;
+    }
